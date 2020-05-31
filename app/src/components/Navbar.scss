@@ -2,7 +2,9 @@
 	background: #fff;
 	box-shadow: 0 -6px 16px rgba($color: #000, $alpha: 0.2);
 	height: 64px;
+	position: relative;
 	width: 100%;
+	z-index: 99;
 
 	&__content {
 		align-items: center;
