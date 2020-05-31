@@ -4,7 +4,7 @@ import './Navbar.scss';
 const Navbar = () => (
 	<div className='navbar'>
 			<div className='navbar__content'>
-				<h4 className='navbar__content__title'>LeadAppDev Portfolio</h4>
+				<h4 className='navbar__content__title'>Portfolio</h4>
 				<span className='navbar__expander'></span>
 				<ul className='navbar__content__list-items'>
 					<li>Home</li>
