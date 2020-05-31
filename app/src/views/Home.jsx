@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.scss';
 import porfileImg from '../assets/profile_img.jpg';
 import weatherDartSnapshot from '../assets/weatherdart_screenshot.jpg';
+import reactLogo from '../assets/react_logo.png';
+import softSkillsIcon from '../assets/softSkills_icon.png';
 import Card from '../components/Card';
 
 const Home = () => (
@@ -38,6 +40,7 @@ const Home = () => (
           <p>Teamwork</p>
           <p>Adaptability</p>
         </div>
+        <img className='homeView__profile__card__reactLogo' src={reactLogo} />
       </Card>
 
       <Card className='homeView__profile__card'>
@@ -50,6 +53,7 @@ const Home = () => (
           <p>Material-UI</p>
           <p>Git</p>
         </div>
+        <img className='homeView__profile__card__skillsIcon' src={softSkillsIcon} />
       </Card>
 
     </div>

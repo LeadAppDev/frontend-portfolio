@@ -86,10 +86,12 @@
       box-shadow: 0 6px 16px rgba($color: #7e57c2, $alpha: 0.1);
       border-radius: 1rem;
       flex-grow: 1;
+      max-height: 250px;
       margin: 0 2rem;
       margin-bottom: 2rem;
       min-width: 390px;
       max-width: 50%;
+      overflow: hidden;
       padding: 2rem 0;
       text-align: center;
       &__title {
@@ -99,6 +101,26 @@
         color: #7e57c2;
         font-size: 14px;
         font-weight: 400;
+        position: relative;
+        z-index: 2;
+      }
+      &__reactLogo {
+        height: 350px;
+        left: -200px;
+        opacity: .1;
+        position: relative;
+        top: -295px;
+        width: 400px;
+        z-index: 1;
+      }
+      &__skillsIcon {
+        height: 250px;
+        left: 190px;
+        opacity: .1;
+        position: relative;
+        top: -240px;
+        width: 400px;
+        z-index: 1;
       }
     }
   }
