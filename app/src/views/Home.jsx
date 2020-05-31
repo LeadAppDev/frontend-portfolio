@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.scss';
 import porfileImg from '../assets/profile_img.jpg';
 import weatherDartSnapshot from '../assets/weatherdart_screenshot.jpg';
+import Card from '../components/Card';
 
 const Home = () => (
   <div className='homeView'>
@@ -25,23 +26,65 @@ const Home = () => (
       </div>
     </div>
 
+    <div className='homeView__profile'>
+
+      <Card className='homeView__profile__card'>
+        <h3 className='homeView__profile__card__title'>Soft Skills</h3>
+        <div className='homeView__profile__card__content'>
+          <p>Work Ethic</p>
+          <p>Communication</p>
+          <p>Problem Solving</p>
+          <p>Creativity</p>
+          <p>Teamwork</p>
+          <p>Adaptability</p>
+        </div>
+      </Card>
+
+      <Card className='homeView__profile__card'>
+        <h3 className='homeView__profile__card__title'>Tech Skills</h3>
+        <div className='homeView__profile__card__content'>
+          <p>React</p>
+          <p>Javascript</p>
+          <p>HTML</p>
+          <p>CSS & Sass</p>
+          <p>Material-UI</p>
+          <p>Git</p>
+        </div>
+      </Card>
+
+    </div>
+
     <div className='homeView__recentWork'>
       <h2>Here is my recent work!</h2>
       <div className='homeView__recentWork__content'>
         
         <div className='homeView__recentWork__content__card'>
           <img src={weatherDartSnapshot} />
+          <div className='homeView__recentWork__content__card__text'>
+            <p>WeatherDART</p>
+            <p>Realtime Weather App</p>
+          </div>
         </div>
 
         <div className='homeView__recentWork__content__card'>
-          <img src={weatherDartSnapshot} />
+          <div className='homeView__recentWork__content__card__empty'>
+            <h3>InternX</h3>
+            <h3>Comming Soon</h3>
+          </div>
         </div>
-
+        
         <div className='homeView__recentWork__content__card'>
-          <img src={weatherDartSnapshot} />
+          <div className='homeView__recentWork__content__card__empty'>
+            <h3>Food Rush</h3>
+            <h3>Comming Soon</h3>
+          </div>
         </div>
 
       </div>
+    </div>
+
+    <div className='homeView__footer'>
+      <p>A Malcolm Lowery Project</p>
     </div>
   </div>
 );

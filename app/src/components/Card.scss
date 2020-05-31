@@ -1,0 +1,8 @@
+.card {
+  height: fit-content;
+  width: fit-content;
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -7,7 +7,6 @@ const Navbar = () => (
 				<h4 className='navbar__content__title'>Portfolio</h4>
 				<span className='navbar__expander'></span>
 				<ul className='navbar__content__list-items'>
-					<li>Home</li>
 					<li>Bio</li>
 					<li>Ambitions</li>
 					<li>Contact</li>
