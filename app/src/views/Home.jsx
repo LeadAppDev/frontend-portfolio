@@ -11,19 +11,18 @@ const Home = () => (
     <div className='homeView__banner'>
       <img className='homeView__banner__profileImg' src={porfileImg} />
       <h1>Designer & Front-end Developer</h1>
-      <p>Test content Test content Test content Test content </p>
+      <p>I have an eye for design both visually and programmatically. It's what I love doing.</p>
     </div>
 
     <div className='homeView__aboutMe'>
       <div className='homeView__aboutMe__content'>
         <h2 className='homeView__aboutMe__content__title'>Hello, my name is Malcolm Lowery.</h2>
         <p className='homeView__aboutMe__content__coverLetter'>
-          Lorem Ipsum is simply dummy text of the printing and 
-          typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown
-          printer took a galley of type and scrambled it to make a 
-          type specimen book. It has survived not only five 
-          centuries.
+          Since starting of my 2 year journey as a UI/UX designer and frontend developer, I've worked 
+          remotely with a startup. I have also accomplished building a few
+          personal projects that have helped bring out the best of my skills with UI/UX
+          and program best practices in mind. With that said, I am always curious as to how I can improve
+          as a developer. There is nothing more refreshing than learning something new!
         </p>
       </div>
     </div>

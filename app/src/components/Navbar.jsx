@@ -6,11 +6,9 @@ const Navbar = () => (
 			<div className='navbar__content'>
 				<h4 className='navbar__content__title'>Portfolio</h4>
 				<span className='navbar__expander'></span>
-				<ul className='navbar__content__list-items'>
-					<li>Bio</li>
-					<li>Ambitions</li>
-					<li>Contact</li>
-				</ul>
+				<button className='navbar__content__button'>
+					Hello, I'm Available
+				</button>
 			</div>
 	</div>
 );
