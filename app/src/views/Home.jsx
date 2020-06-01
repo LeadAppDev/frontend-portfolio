@@ -61,13 +61,13 @@ const Home = () => (
       <h2>Here is my recent work!</h2>
       <div className='homeView__recentWork__content'>
         
-        <div className='homeView__recentWork__content__card'>
+        <a href='https://weatherdart-3d5ad.web.app/' target='_blank' className='homeView__recentWork__content__card'>
           <img src={weatherDartSnapshot} />
           <div className='homeView__recentWork__content__card__text'>
             <p>WeatherDART</p>
             <p>Realtime Weather App</p>
           </div>
-        </div>
+        </a>
 
         <div className='homeView__recentWork__content__card'>
           <div className='homeView__recentWork__content__card__empty'>
